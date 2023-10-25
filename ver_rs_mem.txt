@@ -1,0 +1,3893 @@
+reading file "heaptrack.cargo.82141.gz" - please wait, this might take some time...
+Debuggee command was: cargo run --release
+finished reading file, now analyzing data:
+
+MOST CALLS TO ALLOCATION FUNCTIONS
+31303 calls to allocation functions with 109.41KB peak consumption from
+112basic_stringIwSt11char_traitsIwESaIwEE7replaceEN9__gnu_cxx17__normal_iteratorIPKwS4_EES9_mw
+  in /home/vcm/.cargo/bin/cargo
+25933 calls with 109.41KB peak consumption from:
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+5356 calls with 0B peak consumption from:
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+6 calls with 0B peak consumption from:
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    SsRKNS_4pathES5_St10error_code
+      in /home/vcm/.cargo/bin/cargo
+    1char_traitsIwESaIwEE5rfindEPKwm
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+6 calls with 0B peak consumption from:
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    SsRKNS_4pathES5_St10error_code
+      in /home/vcm/.cargo/bin/cargo
+    1char_traitsIwESaIwEE5rfindEPKwm
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+1 calls with 0B peak consumption from:
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    wESaIwEE6appendERKS4_
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee887d39f
+      in /home/vcm/.cargo/bin/cargo
+    ormal_iteratorIPKwS4_EES9_S8_m
+      in /home/vcm/.cargo/bin/cargo
+    ar_traitsIwESaIwEE5crendEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+  and 1 from 1 other places
+
+28588 calls to allocation functions with 3.16MB peak consumption from
+imedwait_2_0
+  in /home/vcm/.cargo/bin/cargo
+5357 calls with 768B peak consumption from:
+    ¥
+      in /home/vcm/.cargo/bin/cargo
+    treamC1EPciSt13_Ios_Openmode
+      in /home/vcm/.cargo/bin/cargo
+    _normal_iteratorIPKwS4_EEw
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+5356 calls with 152.45KB peak consumption from:
+    0x55fee89b600c
+      in /home/vcm/.cargo/bin/cargo
+    _normal_iteratorIPKwS4_EEw
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+4562 calls with 1.75MB peak consumption from:
+    0x55fee89b600c
+      in /home/vcm/.cargo/bin/cargo
+    _normal_iteratorIPKwS4_EEw
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+4372 calls with 34.98KB peak consumption from:
+    ck_unlock
+      in /home/vcm/.cargo/bin/cargo
+    thERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+863 calls with 24.90KB peak consumption from:
+    @Ë
+      in /home/vcm/.cargo/bin/cargo
+    112basic_stringIwSt11char_traitsIwESaIwEE7replaceEN9__gnu_cxx17__normal_iteratorIPKwS4_EES9_mw
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+  and 8078 from 335 other places
+
+15375 calls to allocation functions with 708B peak consumption from
+__syslog_chk
+  in /home/vcm/.cargo/bin/cargo
+4464 calls with 0B peak consumption from:
+    ad_self
+      in /home/vcm/.cargo/bin/cargo
+    _str_init_readonly
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee866c52a
+      in /home/vcm/.cargo/bin/cargo
+    ___nptl_initial_report_events
+      in /home/vcm/.cargo/bin/cargo
+    t10filesystem16filesystem_errorE
+      in /home/vcm/.cargo/bin/cargo
+    shared_ptrINSt10filesystem4_DirELN9__gnu_cxx12_Lock_policyE2EEC2EOS4_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+4464 calls with 0B peak consumption from:
+    ad_self
+      in /home/vcm/.cargo/bin/cargo
+    _str_init_readonly
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee866c53d
+      in /home/vcm/.cargo/bin/cargo
+    ___nptl_initial_report_events
+      in /home/vcm/.cargo/bin/cargo
+    t10filesystem16filesystem_errorE
+      in /home/vcm/.cargo/bin/cargo
+    shared_ptrINSt10filesystem4_DirELN9__gnu_cxx12_Lock_policyE2EEC2EOS4_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+860 calls with 0B peak consumption from:
+    ad_self
+      in /home/vcm/.cargo/bin/cargo
+    _str_init_readonly
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee866c53d
+      in /home/vcm/.cargo/bin/cargo
+    ___nptl_initial_report_events
+      in /home/vcm/.cargo/bin/cargo
+    shared_ptrINSt10filesystem4_DirELN9__gnu_cxx12_Lock_policyE2EEC2EOS4_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+860 calls with 0B peak consumption from:
+    ad_self
+      in /home/vcm/.cargo/bin/cargo
+    _str_init_readonly
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee866c53d
+      in /home/vcm/.cargo/bin/cargo
+    ___nptl_initial_report_events
+      in /home/vcm/.cargo/bin/cargo
+    shared_ptrINSt10filesystem4_DirELN9__gnu_cxx12_Lock_policyE2EEC2EOS4_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+767 calls with 0B peak consumption from:
+    ad_self
+      in /home/vcm/.cargo/bin/cargo
+    _str_init_readonly
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee866c581
+      in /home/vcm/.cargo/bin/cargo
+    ___nptl_initial_report_events
+      in /home/vcm/.cargo/bin/cargo
+    shared_ptrINSt10filesystem4_DirELN9__gnu_cxx12_Lock_policyE2EEC2EOS4_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+  and 3960 from 39 other places
+
+13364 calls to allocation functions with 109B peak consumption from
+tor3popERSt10error_code
+  in /home/vcm/.cargo/bin/cargo
+4372 calls with 0B peak consumption from:
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+4372 calls with 0B peak consumption from:
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+1576 calls with 0B peak consumption from:
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+764 calls with 0B peak consumption from:
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+735 calls with 0B peak consumption from:
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+  and 1545 from 28 other places
+
+11662 calls to allocation functions with 0B peak consumption from
+cl
+  in /home/vcm/.cargo/bin/cargo
+11646 calls with 0B peak consumption from:
+    _normal_iteratorIPKwS4_EEw
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+13 calls with 0B peak consumption from:
+    _normal_iteratorIPKwS4_EEw
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    SsRKNS_4pathES5_St10error_code
+      in /home/vcm/.cargo/bin/cargo
+    1char_traitsIwESaIwEE5rfindEPKwm
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+3 calls with 0B peak consumption from:
+    _normal_iteratorIPKwS4_EEw
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    wESaIwEE6appendERKS4_
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee887d39f
+      in /home/vcm/.cargo/bin/cargo
+    ormal_iteratorIPKwS4_EES9_S8_m
+      in /home/vcm/.cargo/bin/cargo
+    ar_traitsIwESaIwEE5crendEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+
+10914 calls to allocation functions with 283.93KB peak consumption from
+m4copyERKNS_7__cxx114pathES3_NS_12copy_optionsERSt10error_code
+  in /home/vcm/.cargo/bin/cargo
+4372 calls with 38.57KB peak consumption from:
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+4372 calls with 103.93KB peak consumption from:
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+1576 calls with 123.24KB peak consumption from:
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+190 calls with 1.68KB peak consumption from:
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+190 calls with 4.47KB peak consumption from:
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+  and 214 from 12 other places
+
+7133 calls to allocation functions with 55.09KB peak consumption from
+weakly_canonicalERKNS_7__cxx114pathE
+  in /home/vcm/.cargo/bin/cargo
+4372 calls with 26.23KB peak consumption from:
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+1622 calls with 8.34KB peak consumption from:
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+718 calls with 17.43KB peak consumption from:
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+190 calls with 1.14KB peak consumption from:
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+92 calls with 460B peak consumption from:
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+  and 139 from 7 other places
+
+5506 calls to allocation functions with 3.48MB peak consumption from
+hES3_
+  in /home/vcm/.cargo/bin/cargo
+4372 calls with 2.76MB peak consumption from:
+    em_errorC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+718 calls with 453.78KB peak consumption from:
+    em_errorC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+190 calls with 120.08KB peak consumption from:
+    em_errorC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+93 calls with 58.78KB peak consumption from:
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+32 calls with 20.22KB peak consumption from:
+    em_errorC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+  and 101 from 17 other places
+
+5363 calls to allocation functions with 107.62KB peak consumption from
+gIwSt11char_traitsIwESaIwEE7replaceEmmmw
+  in /home/vcm/.cargo/bin/cargo
+5356 calls with 107.62KB peak consumption from:
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+6 calls with 0B peak consumption from:
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    SsRKNS_4pathES5_St10error_code
+      in /home/vcm/.cargo/bin/cargo
+    1char_traitsIwESaIwEE5rfindEPKwm
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+1 calls with 0B peak consumption from:
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    wESaIwEE6appendERKS4_
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee887d39f
+      in /home/vcm/.cargo/bin/cargo
+    ormal_iteratorIPKwS4_EES9_S8_m
+      in /home/vcm/.cargo/bin/cargo
+    ar_traitsIwESaIwEE5crendEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+
+4568 calls to allocation functions with 0B peak consumption from
+dingEv
+  in /home/vcm/.cargo/bin/cargo
+4372 calls with 0B peak consumption from:
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+190 calls with 0B peak consumption from:
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+6 calls with 0B peak consumption from:
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    SsRKNS_4pathES5_St10error_code
+      in /home/vcm/.cargo/bin/cargo
+    1char_traitsIwESaIwEE5rfindEPKwm
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+
+
+PEAK MEMORY CONSUMERS
+3.48MB peak memory consumed over 5506 calls from
+hES3_
+  in /home/vcm/.cargo/bin/cargo
+2.76MB consumed over 4372 calls from:
+    em_errorC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+453.78KB consumed over 718 calls from:
+    em_errorC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+120.08KB consumed over 190 calls from:
+    em_errorC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+58.78KB consumed over 93 calls from:
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+20.22KB consumed over 32 calls from:
+    em_errorC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+  and 60.98KB from 17 other places
+
+3.16MB peak memory consumed over 28588 calls from
+imedwait_2_0
+  in /home/vcm/.cargo/bin/cargo
+1.75MB consumed over 4562 calls from:
+    0x55fee89b600c
+      in /home/vcm/.cargo/bin/cargo
+    _normal_iteratorIPKwS4_EEw
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+524.29KB consumed over 11 calls from:
+    ‡,¥
+      in /home/vcm/.cargo/bin/cargo
+    _normal_iteratorIPKwS4_EEw
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+379.07KB consumed over 461 calls from:
+    @Ë
+      in /home/vcm/.cargo/bin/cargo
+    112basic_stringIwSt11char_traitsIwESaIwEE7replaceEN9__gnu_cxx17__normal_iteratorIPKwS4_EES9_mw
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+188.93KB consumed over 140 calls from:
+    ocked
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+152.45KB consumed over 5356 calls from:
+    0x55fee89b600c
+      in /home/vcm/.cargo/bin/cargo
+    _normal_iteratorIPKwS4_EEw
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+  and 160.90KB from 335 other places
+
+712.79KB peak memory consumed over 4 calls from
+∂“+¥
+  in /home/vcm/.cargo/bin/cargo
+712.79KB consumed over 1 calls from:
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+
+283.93KB peak memory consumed over 10914 calls from
+m4copyERKNS_7__cxx114pathES3_NS_12copy_optionsERSt10error_code
+  in /home/vcm/.cargo/bin/cargo
+123.24KB consumed over 1576 calls from:
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+103.93KB consumed over 4372 calls from:
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+38.57KB consumed over 4372 calls from:
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+7.04KB consumed over 92 calls from:
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+4.47KB consumed over 190 calls from:
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+  and 6.68KB from 12 other places
+
+225.79KB peak memory consumed over 27 calls from
+¥
+  in /home/vcm/.cargo/bin/cargo
+99.10KB consumed over 1 calls from:
+    ùµ”+¥
+      in /home/vcm/.cargo/bin/cargo
+    –+¥
+      in /home/vcm/.cargo/bin/cargo
+    ¥
+      in /home/vcm/.cargo/bin/cargo
+    path11parent_pathEv
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee8875e4c
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee887d126
+      in /home/vcm/.cargo/bin/cargo
+    ormal_iteratorIPKwS4_EES9_S8_m
+      in /home/vcm/.cargo/bin/cargo
+    ar_traitsIwESaIwEE5crendEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+91.14KB consumed over 1 calls from:
+    ùµ”+¥
+      in /home/vcm/.cargo/bin/cargo
+    –+¥
+      in /home/vcm/.cargo/bin/cargo
+    ¥
+      in /home/vcm/.cargo/bin/cargo
+    path11parent_pathEv
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee8875e4c
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee887d126
+      in /home/vcm/.cargo/bin/cargo
+    ormal_iteratorIPKwS4_EES9_S8_m
+      in /home/vcm/.cargo/bin/cargo
+    ar_traitsIwESaIwEE5crendEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+10.59KB consumed over 1 calls from:
+    ùµ”+¥
+      in /home/vcm/.cargo/bin/cargo
+    –+¥
+      in /home/vcm/.cargo/bin/cargo
+    ¥
+      in /home/vcm/.cargo/bin/cargo
+    
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee887df8e
+      in /home/vcm/.cargo/bin/cargo
+    
+      in /home/vcm/.cargo/bin/cargo
+    ormal_iteratorIPKwS4_EES9_S8_m
+      in /home/vcm/.cargo/bin/cargo
+    ar_traitsIwESaIwEE5crendEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+10.34KB consumed over 1 calls from:
+    ùµ”+¥
+      in /home/vcm/.cargo/bin/cargo
+    –+¥
+      in /home/vcm/.cargo/bin/cargo
+    ¥
+      in /home/vcm/.cargo/bin/cargo
+    
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee887df8e
+      in /home/vcm/.cargo/bin/cargo
+    
+      in /home/vcm/.cargo/bin/cargo
+    ormal_iteratorIPKwS4_EES9_S8_m
+      in /home/vcm/.cargo/bin/cargo
+    ar_traitsIwESaIwEE5crendEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+10.34KB consumed over 1 calls from:
+    ùµ”+¥
+      in /home/vcm/.cargo/bin/cargo
+    –+¥
+      in /home/vcm/.cargo/bin/cargo
+    ¥
+      in /home/vcm/.cargo/bin/cargo
+    
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee887df8e
+      in /home/vcm/.cargo/bin/cargo
+    
+      in /home/vcm/.cargo/bin/cargo
+    ormal_iteratorIPKwS4_EES9_S8_m
+      in /home/vcm/.cargo/bin/cargo
+    ar_traitsIwESaIwEE5crendEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+  and 4.28KB from 20 other places
+
+215.08KB peak memory consumed over 2177 calls from
+0x55fee896f9d7
+  in /home/vcm/.cargo/bin/cargo
+24.78KB consumed over 1 calls from:
+    0x55fee8707991
+      in /home/vcm/.cargo/bin/cargo
+    
+      in /home/vcm/.cargo/bin/cargo
+    ¿ÁÜ,¥
+      in /home/vcm/.cargo/bin/cargo
+    –+¥
+      in /home/vcm/.cargo/bin/cargo
+    ¥
+      in /home/vcm/.cargo/bin/cargo
+    path11parent_pathEv
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee8875e4c
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee887d126
+      in /home/vcm/.cargo/bin/cargo
+    ormal_iteratorIPKwS4_EES9_S8_m
+      in /home/vcm/.cargo/bin/cargo
+    ar_traitsIwESaIwEE5crendEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+24.78KB consumed over 1 calls from:
+    0x55fee8707991
+      in /home/vcm/.cargo/bin/cargo
+    
+      in /home/vcm/.cargo/bin/cargo
+    ¿ÁÜ,¥
+      in /home/vcm/.cargo/bin/cargo
+    –+¥
+      in /home/vcm/.cargo/bin/cargo
+    ¥
+      in /home/vcm/.cargo/bin/cargo
+    path11parent_pathEv
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee8875e4c
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee887d126
+      in /home/vcm/.cargo/bin/cargo
+    ormal_iteratorIPKwS4_EES9_S8_m
+      in /home/vcm/.cargo/bin/cargo
+    ar_traitsIwESaIwEE5crendEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+24.78KB consumed over 1 calls from:
+    0x55fee8707981
+      in /home/vcm/.cargo/bin/cargo
+    
+      in /home/vcm/.cargo/bin/cargo
+    ¿ÁÜ,¥
+      in /home/vcm/.cargo/bin/cargo
+    –+¥
+      in /home/vcm/.cargo/bin/cargo
+    ¥
+      in /home/vcm/.cargo/bin/cargo
+    path11parent_pathEv
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee8875e4c
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee887d126
+      in /home/vcm/.cargo/bin/cargo
+    ormal_iteratorIPKwS4_EES9_S8_m
+      in /home/vcm/.cargo/bin/cargo
+    ar_traitsIwESaIwEE5crendEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+24.78KB consumed over 1 calls from:
+    0x55fee8707981
+      in /home/vcm/.cargo/bin/cargo
+    
+      in /home/vcm/.cargo/bin/cargo
+    ¿ÁÜ,¥
+      in /home/vcm/.cargo/bin/cargo
+    –+¥
+      in /home/vcm/.cargo/bin/cargo
+    ¥
+      in /home/vcm/.cargo/bin/cargo
+    path11parent_pathEv
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee8875e4c
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee887d126
+      in /home/vcm/.cargo/bin/cargo
+    ormal_iteratorIPKwS4_EES9_S8_m
+      in /home/vcm/.cargo/bin/cargo
+    ar_traitsIwESaIwEE5crendEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+22.78KB consumed over 1 calls from:
+    0x55fee8707991
+      in /home/vcm/.cargo/bin/cargo
+    
+      in /home/vcm/.cargo/bin/cargo
+    ¿ÁÜ,¥
+      in /home/vcm/.cargo/bin/cargo
+    –+¥
+      in /home/vcm/.cargo/bin/cargo
+    ¥
+      in /home/vcm/.cargo/bin/cargo
+    path11parent_pathEv
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee8875e4c
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee887d126
+      in /home/vcm/.cargo/bin/cargo
+    ormal_iteratorIPKwS4_EES9_S8_m
+      in /home/vcm/.cargo/bin/cargo
+    ar_traitsIwESaIwEE5crendEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+  and 93.19KB from 137 other places
+
+109.41KB peak memory consumed over 31303 calls from
+112basic_stringIwSt11char_traitsIwESaIwEE7replaceEN9__gnu_cxx17__normal_iteratorIPKwS4_EES9_mw
+  in /home/vcm/.cargo/bin/cargo
+109.41KB consumed over 25933 calls from:
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+  and 0B from 1 other places
+
+107.62KB peak memory consumed over 5363 calls from
+gIwSt11char_traitsIwESaIwEE7replaceEmmmw
+  in /home/vcm/.cargo/bin/cargo
+107.62KB consumed over 5356 calls from:
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+
+100.38KB peak memory consumed over 22 calls from
+tream
+  in /home/vcm/.cargo/bin/cargo
+50.19KB consumed over 9 calls from:
+    gIwSt11char_traitsIwESaIwEE7replaceEmmmw
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+50.19KB consumed over 9 calls from:
+    112basic_stringIwSt11char_traitsIwESaIwEE7replaceEN9__gnu_cxx17__normal_iteratorIPKwS4_EES9_mw
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+  and 0B from 1 other places
+
+80.36KB peak memory consumed over 2633 calls from
+amIcSt11char_traitsIcESaIcEE
+  in /home/vcm/.cargo/bin/cargo
+16.38KB consumed over 1 calls from:
+    S1_
+      in /home/vcm/.cargo/bin/cargo
+    EC2Em
+      in /home/vcm/.cargo/bin/cargo
+    t11char_traitsIwEEE11do_get_yearES4_S4_RSt8ios_baseRSt12_Ios_IostateP2tm
+      in /home/vcm/.cargo/bin/cargo
+    sIjE14max_exponent10E
+      in /home/vcm/.cargo/bin/cargo
+    __pthread_once_slow
+      in /lib/x86_64-linux-gnu/libpthread.so.0
+    IPcSsEES2_PKcS4_
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx119money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES4_bRSt8ios_basewe
+      in /home/vcm/.cargo/bin/cargo
+    nameIcED1Ev
+      in /home/vcm/.cargo/bin/cargo
+    st_not_ofEcm
+      in /home/vcm/.cargo/bin/cargo
+    mitsIiE10is_boundedE
+      in /home/vcm/.cargo/bin/cargo
+    __pthread_once_slow
+      in /lib/x86_64-linux-gnu/libpthread.so.0
+    IPcSsEES2_PKcS4_
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx119money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES4_bRSt8ios_basewe
+      in /home/vcm/.cargo/bin/cargo
+    tsIcEE22_M_convert_to_externalEPcl
+      in /home/vcm/.cargo/bin/cargo
+    igits10E
+      in /home/vcm/.cargo/bin/cargo
+    __pthread_once_slow
+      in /lib/x86_64-linux-gnu/libpthread.so.0
+    IPcSsEES2_PKcS4_
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx119money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES4_bRSt8ios_basewe
+      in /home/vcm/.cargo/bin/cargo
+    SaIwEE4_Rep7_M_grabERKS1_S5_
+      in /home/vcm/.cargo/bin/cargo
+    ZNSt14numeric_limitsIaE8is_exactE
+      in /home/vcm/.cargo/bin/cargo
+    mIwSt11char_traitsIwESaIwEE5rdbufEv
+      in /home/vcm/.cargo/bin/cargo
+    Ä
+      in /home/vcm/.cargo/bin/cargo
+    Ä	
+      in /home/vcm/.cargo/bin/cargo
+    c_stringIwSt11char_traitsIwESaIwEE6resizeEmw
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+4.18KB consumed over 174 calls from:
+    S1_
+      in /home/vcm/.cargo/bin/cargo
+    SaIcEEEm
+      in /home/vcm/.cargo/bin/cargo
+    t11char_traitsIwEEE11do_get_yearES4_S4_RSt8ios_baseRSt12_Ios_IostateP2tm
+      in /home/vcm/.cargo/bin/cargo
+    sIjE14max_exponent10E
+      in /home/vcm/.cargo/bin/cargo
+    __pthread_once_slow
+      in /lib/x86_64-linux-gnu/libpthread.so.0
+    IPcSsEES2_PKcS4_
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx119money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES4_bRSt8ios_basewe
+      in /home/vcm/.cargo/bin/cargo
+    nameIcED1Ev
+      in /home/vcm/.cargo/bin/cargo
+    st_not_ofEcm
+      in /home/vcm/.cargo/bin/cargo
+    mitsIiE10is_boundedE
+      in /home/vcm/.cargo/bin/cargo
+    __pthread_once_slow
+      in /lib/x86_64-linux-gnu/libpthread.so.0
+    IPcSsEES2_PKcS4_
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx119money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES4_bRSt8ios_basewe
+      in /home/vcm/.cargo/bin/cargo
+    tsIcEE22_M_convert_to_externalEPcl
+      in /home/vcm/.cargo/bin/cargo
+    igits10E
+      in /home/vcm/.cargo/bin/cargo
+    __pthread_once_slow
+      in /lib/x86_64-linux-gnu/libpthread.so.0
+    IPcSsEES2_PKcS4_
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx119money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES4_bRSt8ios_basewe
+      in /home/vcm/.cargo/bin/cargo
+    SaIwEE4_Rep7_M_grabERKS1_S5_
+      in /home/vcm/.cargo/bin/cargo
+    ZNSt14numeric_limitsIaE8is_exactE
+      in /home/vcm/.cargo/bin/cargo
+    mIwSt11char_traitsIwESaIwEE5rdbufEv
+      in /home/vcm/.cargo/bin/cargo
+    Ä
+      in /home/vcm/.cargo/bin/cargo
+    Ä	
+      in /home/vcm/.cargo/bin/cargo
+    c_stringIwSt11char_traitsIwESaIwEE6resizeEmw
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+3.05KB consumed over 127 calls from:
+    uf_iteratorIwSt11char_traitsIwEEEC2ERKNS_12basic_stringIcS2_IcESaIcEEEm
+      in /home/vcm/.cargo/bin/cargo
+    t11char_traitsIwEEE11do_get_yearES4_S4_RSt8ios_baseRSt12_Ios_IostateP2tm
+      in /home/vcm/.cargo/bin/cargo
+    sIjE14max_exponent10E
+      in /home/vcm/.cargo/bin/cargo
+    __pthread_once_slow
+      in /lib/x86_64-linux-gnu/libpthread.so.0
+    IPcSsEES2_PKcS4_
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx119money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES4_bRSt8ios_basewe
+      in /home/vcm/.cargo/bin/cargo
+    nameIcED1Ev
+      in /home/vcm/.cargo/bin/cargo
+    st_not_ofEcm
+      in /home/vcm/.cargo/bin/cargo
+    mitsIiE10is_boundedE
+      in /home/vcm/.cargo/bin/cargo
+    __pthread_once_slow
+      in /lib/x86_64-linux-gnu/libpthread.so.0
+    IPcSsEES2_PKcS4_
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx119money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES4_bRSt8ios_basewe
+      in /home/vcm/.cargo/bin/cargo
+    tsIcEE22_M_convert_to_externalEPcl
+      in /home/vcm/.cargo/bin/cargo
+    igits10E
+      in /home/vcm/.cargo/bin/cargo
+    __pthread_once_slow
+      in /lib/x86_64-linux-gnu/libpthread.so.0
+    IPcSsEES2_PKcS4_
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx119money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES4_bRSt8ios_basewe
+      in /home/vcm/.cargo/bin/cargo
+    SaIwEE4_Rep7_M_grabERKS1_S5_
+      in /home/vcm/.cargo/bin/cargo
+    ZNSt14numeric_limitsIaE8is_exactE
+      in /home/vcm/.cargo/bin/cargo
+    mIwSt11char_traitsIwESaIwEE5rdbufEv
+      in /home/vcm/.cargo/bin/cargo
+    Ä
+      in /home/vcm/.cargo/bin/cargo
+    Ä	
+      in /home/vcm/.cargo/bin/cargo
+    c_stringIwSt11char_traitsIwESaIwEE6resizeEmw
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+2.74KB consumed over 114 calls from:
+    S1_
+      in /home/vcm/.cargo/bin/cargo
+    RKNSt7__cxx1112basic_stringIcS1_SaIcEEESt13_Ios_Openmode
+      in /home/vcm/.cargo/bin/cargo
+    t11char_traitsIwEEE11do_get_yearES4_S4_RSt8ios_baseRSt12_Ios_IostateP2tm
+      in /home/vcm/.cargo/bin/cargo
+    sIjE14max_exponent10E
+      in /home/vcm/.cargo/bin/cargo
+    __pthread_once_slow
+      in /lib/x86_64-linux-gnu/libpthread.so.0
+    IPcSsEES2_PKcS4_
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx119money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES4_bRSt8ios_basewe
+      in /home/vcm/.cargo/bin/cargo
+    nameIcED1Ev
+      in /home/vcm/.cargo/bin/cargo
+    st_not_ofEcm
+      in /home/vcm/.cargo/bin/cargo
+    mitsIiE10is_boundedE
+      in /home/vcm/.cargo/bin/cargo
+    __pthread_once_slow
+      in /lib/x86_64-linux-gnu/libpthread.so.0
+    IPcSsEES2_PKcS4_
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx119money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES4_bRSt8ios_basewe
+      in /home/vcm/.cargo/bin/cargo
+    tsIcEE22_M_convert_to_externalEPcl
+      in /home/vcm/.cargo/bin/cargo
+    igits10E
+      in /home/vcm/.cargo/bin/cargo
+    __pthread_once_slow
+      in /lib/x86_64-linux-gnu/libpthread.so.0
+    IPcSsEES2_PKcS4_
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx119money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES4_bRSt8ios_basewe
+      in /home/vcm/.cargo/bin/cargo
+    SaIwEE4_Rep7_M_grabERKS1_S5_
+      in /home/vcm/.cargo/bin/cargo
+    ZNSt14numeric_limitsIaE8is_exactE
+      in /home/vcm/.cargo/bin/cargo
+    mIwSt11char_traitsIwESaIwEE5rdbufEv
+      in /home/vcm/.cargo/bin/cargo
+    Ä
+      in /home/vcm/.cargo/bin/cargo
+    Ä	
+      in /home/vcm/.cargo/bin/cargo
+    c_stringIwSt11char_traitsIwESaIwEE6resizeEmw
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+2.71KB consumed over 113 calls from:
+    S1_
+      in /home/vcm/.cargo/bin/cargo
+    RKNSt7__cxx1112basic_stringIcS1_SaIcEEESt13_Ios_Openmode
+      in /home/vcm/.cargo/bin/cargo
+    t11char_traitsIwEEE11do_get_yearES4_S4_RSt8ios_baseRSt12_Ios_IostateP2tm
+      in /home/vcm/.cargo/bin/cargo
+    sIjE14max_exponent10E
+      in /home/vcm/.cargo/bin/cargo
+    __pthread_once_slow
+      in /lib/x86_64-linux-gnu/libpthread.so.0
+    IPcSsEES2_PKcS4_
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx119money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES4_bRSt8ios_basewe
+      in /home/vcm/.cargo/bin/cargo
+    nameIcED1Ev
+      in /home/vcm/.cargo/bin/cargo
+    st_not_ofEcm
+      in /home/vcm/.cargo/bin/cargo
+    mitsIiE10is_boundedE
+      in /home/vcm/.cargo/bin/cargo
+    __pthread_once_slow
+      in /lib/x86_64-linux-gnu/libpthread.so.0
+    IPcSsEES2_PKcS4_
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx119money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES4_bRSt8ios_basewe
+      in /home/vcm/.cargo/bin/cargo
+    tsIcEE22_M_convert_to_externalEPcl
+      in /home/vcm/.cargo/bin/cargo
+    igits10E
+      in /home/vcm/.cargo/bin/cargo
+    __pthread_once_slow
+      in /lib/x86_64-linux-gnu/libpthread.so.0
+    IPcSsEES2_PKcS4_
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx119money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES4_bRSt8ios_basewe
+      in /home/vcm/.cargo/bin/cargo
+    SaIwEE4_Rep7_M_grabERKS1_S5_
+      in /home/vcm/.cargo/bin/cargo
+    ZNSt14numeric_limitsIaE8is_exactE
+      in /home/vcm/.cargo/bin/cargo
+    mIwSt11char_traitsIwESaIwEE5rdbufEv
+      in /home/vcm/.cargo/bin/cargo
+    Ä
+      in /home/vcm/.cargo/bin/cargo
+    Ä	
+      in /home/vcm/.cargo/bin/cargo
+    c_stringIwSt11char_traitsIwESaIwEE6resizeEmw
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+  and 51.30KB from 260 other places
+
+
+MOST TEMPORARY ALLOCATIONS
+25076 temporary allocations of 31303 allocations in total (80.11%) from
+112basic_stringIwSt11char_traitsIwESaIwEE7replaceEN9__gnu_cxx17__normal_iteratorIPKwS4_EES9_mw
+  in /home/vcm/.cargo/bin/cargo
+25071 temporary allocations of 25933 allocations in total (96.68%) from:
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+5 temporary allocations of 6 allocations in total (83.33%) from:
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    SsRKNS_4pathES5_St10error_code
+      in /home/vcm/.cargo/bin/cargo
+    1char_traitsIwESaIwEE5rfindEPKwm
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+  and 0B from 1 other places
+
+7974 temporary allocations of 15375 allocations in total (51.86%) from
+__syslog_chk
+  in /home/vcm/.cargo/bin/cargo
+4464 temporary allocations of 4464 allocations in total (100.00%) from:
+    ad_self
+      in /home/vcm/.cargo/bin/cargo
+    _str_init_readonly
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee866c53d
+      in /home/vcm/.cargo/bin/cargo
+    ___nptl_initial_report_events
+      in /home/vcm/.cargo/bin/cargo
+    t10filesystem16filesystem_errorE
+      in /home/vcm/.cargo/bin/cargo
+    shared_ptrINSt10filesystem4_DirELN9__gnu_cxx12_Lock_policyE2EEC2EOS4_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+767 temporary allocations of 767 allocations in total (100.00%) from:
+    ad_self
+      in /home/vcm/.cargo/bin/cargo
+    _str_init_readonly
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee866c53d
+      in /home/vcm/.cargo/bin/cargo
+    ___nptl_initial_report_events
+      in /home/vcm/.cargo/bin/cargo
+    shared_ptrINSt10filesystem4_DirELN9__gnu_cxx12_Lock_policyE2EEC2EOS4_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+767 temporary allocations of 767 allocations in total (100.00%) from:
+    ad_self
+      in /home/vcm/.cargo/bin/cargo
+    _str_init_readonly
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee866c53d
+      in /home/vcm/.cargo/bin/cargo
+    ___nptl_initial_report_events
+      in /home/vcm/.cargo/bin/cargo
+    shared_ptrINSt10filesystem4_DirELN9__gnu_cxx12_Lock_policyE2EEC2EOS4_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+743 temporary allocations of 767 allocations in total (96.87%) from:
+    ad_self
+      in /home/vcm/.cargo/bin/cargo
+    _str_init_readonly
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee866c581
+      in /home/vcm/.cargo/bin/cargo
+    ___nptl_initial_report_events
+      in /home/vcm/.cargo/bin/cargo
+    shared_ptrINSt10filesystem4_DirELN9__gnu_cxx12_Lock_policyE2EEC2EOS4_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+743 temporary allocations of 767 allocations in total (96.87%) from:
+    ad_self
+      in /home/vcm/.cargo/bin/cargo
+    _str_init_readonly
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee866c581
+      in /home/vcm/.cargo/bin/cargo
+    ___nptl_initial_report_events
+      in /home/vcm/.cargo/bin/cargo
+    shared_ptrINSt10filesystem4_DirELN9__gnu_cxx12_Lock_policyE2EEC2EOS4_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+  and 490B from 39 other places
+
+6220 temporary allocations of 13364 allocations in total (46.54%) from
+tor3popERSt10error_code
+  in /home/vcm/.cargo/bin/cargo
+4372 temporary allocations of 4372 allocations in total (100.00%) from:
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+764 temporary allocations of 764 allocations in total (100.00%) from:
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+735 temporary allocations of 735 allocations in total (100.00%) from:
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+190 temporary allocations of 190 allocations in total (100.00%) from:
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+40 temporary allocations of 40 allocations in total (100.00%) from:
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+  and 119B from 28 other places
+
+5864 temporary allocations of 11662 allocations in total (50.28%) from
+cl
+  in /home/vcm/.cargo/bin/cargo
+5856 temporary allocations of 11646 allocations in total (50.28%) from:
+    _normal_iteratorIPKwS4_EEw
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+6 temporary allocations of 13 allocations in total (46.15%) from:
+    _normal_iteratorIPKwS4_EEw
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    SsRKNS_4pathES5_St10error_code
+      in /home/vcm/.cargo/bin/cargo
+    1char_traitsIwESaIwEE5rfindEPKwm
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+2 temporary allocations of 3 allocations in total (66.67%) from:
+    _normal_iteratorIPKwS4_EEw
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    wESaIwEE6appendERKS4_
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee887d39f
+      in /home/vcm/.cargo/bin/cargo
+    ormal_iteratorIPKwS4_EES9_S8_m
+      in /home/vcm/.cargo/bin/cargo
+    ar_traitsIwESaIwEE5crendEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+
+4842 temporary allocations of 28588 allocations in total (16.94%) from
+imedwait_2_0
+  in /home/vcm/.cargo/bin/cargo
+4562 temporary allocations of 5356 allocations in total (85.18%) from:
+    0x55fee89b600c
+      in /home/vcm/.cargo/bin/cargo
+    _normal_iteratorIPKwS4_EEw
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+29 temporary allocations of 40 allocations in total (72.50%) from:
+    0x55fee89b600c
+      in /home/vcm/.cargo/bin/cargo
+    Û—+¥
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee87414ac
+      in /home/vcm/.cargo/bin/cargo
+    –+¥
+      in /home/vcm/.cargo/bin/cargo
+    ¥
+      in /home/vcm/.cargo/bin/cargo
+    
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee887df8e
+      in /home/vcm/.cargo/bin/cargo
+    
+      in /home/vcm/.cargo/bin/cargo
+    ormal_iteratorIPKwS4_EES9_S8_m
+      in /home/vcm/.cargo/bin/cargo
+    ar_traitsIwESaIwEE5crendEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+28 temporary allocations of 40 allocations in total (70.00%) from:
+    
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee873e71e
+      in /home/vcm/.cargo/bin/cargo
+    –+¥
+      in /home/vcm/.cargo/bin/cargo
+    ¥
+      in /home/vcm/.cargo/bin/cargo
+    
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee887df8e
+      in /home/vcm/.cargo/bin/cargo
+    
+      in /home/vcm/.cargo/bin/cargo
+    ormal_iteratorIPKwS4_EES9_S8_m
+      in /home/vcm/.cargo/bin/cargo
+    ar_traitsIwESaIwEE5crendEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+14 temporary allocations of 16 allocations in total (87.50%) from:
+    ocked
+      in /home/vcm/.cargo/bin/cargo
+    +¥
+      in /home/vcm/.cargo/bin/cargo
+    Ü,¥
+      in /home/vcm/.cargo/bin/cargo
+    œ+¥
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee86f12bf
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee86f06de
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee86f197c
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee86f12bf
+      in /home/vcm/.cargo/bin/cargo
+    ùµ”+¥
+      in /home/vcm/.cargo/bin/cargo
+    –+¥
+      in /home/vcm/.cargo/bin/cargo
+    ¥
+      in /home/vcm/.cargo/bin/cargo
+    path11parent_pathEv
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee8875e4c
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee887d126
+      in /home/vcm/.cargo/bin/cargo
+    ormal_iteratorIPKwS4_EES9_S8_m
+      in /home/vcm/.cargo/bin/cargo
+    ar_traitsIwESaIwEE5crendEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+14 temporary allocations of 43 allocations in total (32.56%) from:
+    
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee873e71e
+      in /home/vcm/.cargo/bin/cargo
+    –+¥
+      in /home/vcm/.cargo/bin/cargo
+    ¥
+      in /home/vcm/.cargo/bin/cargo
+    
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee887df8e
+      in /home/vcm/.cargo/bin/cargo
+    
+      in /home/vcm/.cargo/bin/cargo
+    ormal_iteratorIPKwS4_EES9_S8_m
+      in /home/vcm/.cargo/bin/cargo
+    ar_traitsIwESaIwEE5crendEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+  and 195B from 335 other places
+
+4519 temporary allocations of 5363 allocations in total (84.26%) from
+gIwSt11char_traitsIwESaIwEE7replaceEmmmw
+  in /home/vcm/.cargo/bin/cargo
+4514 temporary allocations of 5356 allocations in total (84.28%) from:
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+5 temporary allocations of 6 allocations in total (83.33%) from:
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    SsRKNS_4pathES5_St10error_code
+      in /home/vcm/.cargo/bin/cargo
+    1char_traitsIwESaIwEE5rfindEPKwm
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+
+816 temporary allocations of 816 allocations in total (100.00%) from
+_7__cxx114pathERSt10error_code
+  in /home/vcm/.cargo/bin/cargo
+718 temporary allocations of 718 allocations in total (100.00%) from:
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+32 temporary allocations of 32 allocations in total (100.00%) from:
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+23 temporary allocations of 23 allocations in total (100.00%) from:
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+17 temporary allocations of 17 allocations in total (100.00%) from:
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+17 temporary allocations of 17 allocations in total (100.00%) from:
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    _7__cxx114pathERSt10error_code
+      in /home/vcm/.cargo/bin/cargo
+    dingEv
+      in /home/vcm/.cargo/bin/cargo
+    cxx12_Lock_policyE2EEC1EOS5_
+      in /home/vcm/.cargo/bin/cargo
+    recursive_directory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2Ev
+      in /home/vcm/.cargo/bin/cargo
+    Ev
+      in /home/vcm/.cargo/bin/cargo
+    NKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE5rfindERKS4_m
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+  and 9B from 5 other places
+
+565 temporary allocations of 2177 allocations in total (25.95%) from
+0x55fee896f9d7
+  in /home/vcm/.cargo/bin/cargo
+245 temporary allocations of 245 allocations in total (100.00%) from:
+    
+      in /home/vcm/.cargo/bin/cargo
+    ÃÒÜ,¥
+      in /home/vcm/.cargo/bin/cargo
+    ÃÒÜ,¥
+      in /home/vcm/.cargo/bin/cargo
+    ÃÒÜ,¥
+      in /home/vcm/.cargo/bin/cargo
+    ÃÒÜ,¥
+      in /home/vcm/.cargo/bin/cargo
+    ÃÒÜ,¥
+      in /home/vcm/.cargo/bin/cargo
+    ÃÒÜ,¥
+      in /home/vcm/.cargo/bin/cargo
+    –+¥
+      in /home/vcm/.cargo/bin/cargo
+    ¥
+      in /home/vcm/.cargo/bin/cargo
+    
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee887df8e
+      in /home/vcm/.cargo/bin/cargo
+    
+      in /home/vcm/.cargo/bin/cargo
+    ormal_iteratorIPKwS4_EES9_S8_m
+      in /home/vcm/.cargo/bin/cargo
+    ar_traitsIwESaIwEE5crendEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+245 temporary allocations of 245 allocations in total (100.00%) from:
+    
+      in /home/vcm/.cargo/bin/cargo
+    ¥
+      in /home/vcm/.cargo/bin/cargo
+    ¥
+      in /home/vcm/.cargo/bin/cargo
+    ¥
+      in /home/vcm/.cargo/bin/cargo
+    ¥
+      in /home/vcm/.cargo/bin/cargo
+    ¥
+      in /home/vcm/.cargo/bin/cargo
+    ¥
+      in /home/vcm/.cargo/bin/cargo
+    –+¥
+      in /home/vcm/.cargo/bin/cargo
+    ¥
+      in /home/vcm/.cargo/bin/cargo
+    
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee887df8e
+      in /home/vcm/.cargo/bin/cargo
+    
+      in /home/vcm/.cargo/bin/cargo
+    ormal_iteratorIPKwS4_EES9_S8_m
+      in /home/vcm/.cargo/bin/cargo
+    ar_traitsIwESaIwEE5crendEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+18 temporary allocations of 18 allocations in total (100.00%) from:
+    
+      in /home/vcm/.cargo/bin/cargo
+    ¥
+      in /home/vcm/.cargo/bin/cargo
+    ¥
+      in /home/vcm/.cargo/bin/cargo
+    ¥
+      in /home/vcm/.cargo/bin/cargo
+    ¥
+      in /home/vcm/.cargo/bin/cargo
+    –+¥
+      in /home/vcm/.cargo/bin/cargo
+    ¥
+      in /home/vcm/.cargo/bin/cargo
+    
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee887df8e
+      in /home/vcm/.cargo/bin/cargo
+    
+      in /home/vcm/.cargo/bin/cargo
+    ormal_iteratorIPKwS4_EES9_S8_m
+      in /home/vcm/.cargo/bin/cargo
+    ar_traitsIwESaIwEE5crendEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+14 temporary allocations of 14 allocations in total (100.00%) from:
+    
+      in /home/vcm/.cargo/bin/cargo
+    ¥
+      in /home/vcm/.cargo/bin/cargo
+    ¥
+      in /home/vcm/.cargo/bin/cargo
+    ¥
+      in /home/vcm/.cargo/bin/cargo
+    –+¥
+      in /home/vcm/.cargo/bin/cargo
+    ¥
+      in /home/vcm/.cargo/bin/cargo
+    path11parent_pathEv
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee8875e4c
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee887d126
+      in /home/vcm/.cargo/bin/cargo
+    ormal_iteratorIPKwS4_EES9_S8_m
+      in /home/vcm/.cargo/bin/cargo
+    ar_traitsIwESaIwEE5crendEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+7 temporary allocations of 7 allocations in total (100.00%) from:
+    1112basic_stringIwSt11char_traitsIwESaIwEE4findEwm
+      in /home/vcm/.cargo/bin/cargo
+    tsIwESaIwEE8max_sizeEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+  and 36B from 137 other places
+
+9 temporary allocations of 69 allocations in total (13.04%) from
+
+  in /home/vcm/.cargo/bin/cargo
+1 temporary allocations of 1 allocations in total (100.00%) from:
+    
+      in /home/vcm/.cargo/bin/cargo
+    _pthread_key_data_data
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+1 temporary allocations of 1 allocations in total (100.00%) from:
+    0x55fee896d963
+      in /home/vcm/.cargo/bin/cargo
+    nable_set_elision_retry_try_xbegin
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+1 temporary allocations of 1 allocations in total (100.00%) from:
+    0x55fee896d963
+      in /home/vcm/.cargo/bin/cargo
+    nable_set_elision_retry_try_xbegin
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+1 temporary allocations of 1 allocations in total (100.00%) from:
+    
+      in /home/vcm/.cargo/bin/cargo
+    raitsIwESaIwEEpLEw
+      in /home/vcm/.cargo/bin/cargo
+    tringIwSt11char_traitsIwESaIwEE6cbeginEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+1 temporary allocations of 1 allocations in total (100.00%) from:
+    
+      in /home/vcm/.cargo/bin/cargo
+    _pthread_key_data_data
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+  and 4B from 21 other places
+
+7 temporary allocations of 871 allocations in total (0.80%) from
+___nptl_initial_report_events
+  in /home/vcm/.cargo/bin/cargo
+1 temporary allocations of 1 allocations in total (100.00%) from:
+    0x55fee85e3ea8
+      in /home/vcm/.cargo/bin/cargo
+    path11parent_pathEv
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee8875e4c
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee887d126
+      in /home/vcm/.cargo/bin/cargo
+    ormal_iteratorIPKwS4_EES9_S8_m
+      in /home/vcm/.cargo/bin/cargo
+    ar_traitsIwESaIwEE5crendEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+1 temporary allocations of 1 allocations in total (100.00%) from:
+    ilesystem_errorD1Ev
+      in /home/vcm/.cargo/bin/cargo
+    irectory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2EOS6_
+      in /home/vcm/.cargo/bin/cargo
+    wESaIwEE6appendERKS4_
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee887d39f
+      in /home/vcm/.cargo/bin/cargo
+    ormal_iteratorIPKwS4_EES9_S8_m
+      in /home/vcm/.cargo/bin/cargo
+    ar_traitsIwESaIwEE5crendEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+1 temporary allocations of 1 allocations in total (100.00%) from:
+    ilesystem_errorD1Ev
+      in /home/vcm/.cargo/bin/cargo
+    irectory_iterator10_Dir_stackELN9__gnu_cxx12_Lock_policyE2EEC2EOS6_
+      in /home/vcm/.cargo/bin/cargo
+    wESaIwEE6appendERKS4_
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee887d39f
+      in /home/vcm/.cargo/bin/cargo
+    ormal_iteratorIPKwS4_EES9_S8_m
+      in /home/vcm/.cargo/bin/cargo
+    ar_traitsIwESaIwEE5crendEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+1 temporary allocations of 1 allocations in total (100.00%) from:
+    0x55fee887df58
+      in /home/vcm/.cargo/bin/cargo
+    
+      in /home/vcm/.cargo/bin/cargo
+    ormal_iteratorIPKwS4_EES9_S8_m
+      in /home/vcm/.cargo/bin/cargo
+    ar_traitsIwESaIwEE5crendEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+1 temporary allocations of 1 allocations in total (100.00%) from:
+    0x55fee85e45c4
+      in /home/vcm/.cargo/bin/cargo
+    
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee887df8e
+      in /home/vcm/.cargo/bin/cargo
+    
+      in /home/vcm/.cargo/bin/cargo
+    ormal_iteratorIPKwS4_EES9_S8_m
+      in /home/vcm/.cargo/bin/cargo
+    ar_traitsIwESaIwEE5crendEv
+      in /home/vcm/.cargo/bin/cargo
+    cancel
+      in /home/vcm/.cargo/bin/cargo
+    reeres
+      in /home/vcm/.cargo/bin/cargo
+    0x55fee85f24d2
+      in /home/vcm/.cargo/bin/cargo
+    12basic_stringIcSt11char_traitsIcESaIcEEE
+      in /home/vcm/.cargo/bin/cargo
+    __libc_start_main
+      in /lib/x86_64-linux-gnu/libc.so.6
+  and 2B from 8 other places
+
+
+total runtime: 0.22s.
+bytes allocated in total (ignoring deallocations): 22.95MB (102.93MB/s)
+calls to allocation functions: 148592 (666331/s)
+temporary memory allocations: 55912 (250726/s)
+peak heap memory consumption: 8.65MB
+peak RSS (including heaptrack overhead): 83.89MB
+total memory leaked: 652.18KB
