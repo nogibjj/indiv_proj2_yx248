@@ -116,8 +116,10 @@ To run the tests for the project, use:
     ```bash
     // create tables if not exists (create)
     pub async fn create_tables_if_not_exists(pool: &Pool)
+
     // insert data from csv file (create)
     pub async fn insert_data_from_csv(pool: &Pool, filepath: &str)
+
     // function to insert data into the database (create)
     pub async fn insert_data(pool: &Pool, date: &str, product: &str, price: f64, quantity: i32)
     ```
@@ -125,6 +127,7 @@ To run the tests for the project, use:
     ```bash
     // function to run a complex query (read)
     pub async fn complex_query(pool: &Pool)
+
     // function to check all the data in the database (read)
     pub async fn check_data(pool: &Pool)
     ```
@@ -137,6 +140,7 @@ To run the tests for the project, use:
     ```bash
     // clear the table (delete)
     pub async fn clear_table(pool: &Pool)
+
     // function to delete data from the database (delete)
     pub async fn delete_data(pool: &Pool, date: &str, product: &str)
     ```
