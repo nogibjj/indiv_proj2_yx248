@@ -116,10 +116,10 @@ To run the tests for the project, use:
 
 - Create:
     ```bash
-    // create tables if not exists (create)
+    // function to create tables if not exists (create)
     pub async fn create_tables_if_not_exists(pool: &Pool)
 
-    // insert data from csv file (create)
+    // function to insert data from csv file (create)
     pub async fn insert_data_from_csv(pool: &Pool, filepath: &str)
 
     // function to insert data into the database (create)
@@ -140,7 +140,7 @@ To run the tests for the project, use:
     ```
 - Delete:
     ```bash
-    // clear the table (delete)
+    // function to clear the table (delete)
     pub async fn clear_table(pool: &Pool)
 
     // function to delete data from the database (delete)
