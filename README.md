@@ -91,11 +91,9 @@ After building, you can run the program using:
 
     ```bash
     cargo run --release
-    ```
 
     or
 
-    ```bash
     cargo build
     cargo run
     ```
@@ -104,9 +102,12 @@ After building, you can run the program using:
 ## Running Tests
 
 To run the tests for the project, use:
+
     ```bash
     make test
+
     or
+
     cargo test
     ```
 
