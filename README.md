@@ -6,6 +6,7 @@ Rust CICD Test Badge: [![Rust CI/CD Pipeline](https://github.com/nogibjj/indiv_p
 ### Rust CLI Binary with SQLite
 This project is a simple Rust CLI application that demonstrates CRUD operations on an SQLite database. The CLI binary allows operations such as creating tables, inserting data from a CSV file, querying complex relationships, and individual CRUD operations.
 
+
 ## Table of Contents
 
 - [Project Structure](#project-structure)
@@ -13,14 +14,16 @@ This project is a simple Rust CLI application that demonstrates CRUD operations 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Running Tests](#running-tests)
+- [CRUD Functions](#crdu-functions)
 - [Complex Query Explanation](#complex-query-explanation)
 - [Sample Output](sample-output)
 - [Acknowledgements](#acknowledgements)
 
+
 ## Project Structure
 
 ```bash
-IDS706_MiniProj8_YangXu (Root Directory)
+indiv_proj2_yx248 (Root Directory)
 │
 ├── .devcontainer
 │   ├── Dockerfile
@@ -57,6 +60,7 @@ IDS706_MiniProj8_YangXu (Root Directory)
 └── .gitignore
 ```
 
+
 ## Requirements
 
 The Rust project leverages several crates:
@@ -69,6 +73,7 @@ The Rust project leverages several crates:
 - mysql_async: For asynchronous database operations.
 - Other dependencies are listed in the Cargo.toml file.
 
+
 ## Installation
 
 1. Clone this repository.
@@ -78,17 +83,22 @@ The Rust project leverages several crates:
     cargo build --release
     ```
 
+
 ## Usage
 
 After building, you can run the program using:
+
     ```bash
     cargo run --release
     ```
+
     or
+
     ```bash
     cargo build
     cargo run
     ```
+
 
 ## Running Tests
 
@@ -98,6 +108,39 @@ To run the tests for the project, use:
     or
     cargo test
     ```
+
+
+## CRUD Functions
+
+- Create:
+    ```bash
+    // create tables if not exists (create)
+    pub async fn create_tables_if_not_exists(pool: &Pool)
+    // insert data from csv file (create)
+    pub async fn insert_data_from_csv(pool: &Pool, filepath: &str)
+    // function to insert data into the database (create)
+    pub async fn insert_data(pool: &Pool, date: &str, product: &str, price: f64, quantity: i32)
+    ```
+- Read:
+    ```bash
+    // function to run a complex query (read)
+    pub async fn complex_query(pool: &Pool)
+    // function to check all the data in the database (read)
+    pub async fn check_data(pool: &Pool)
+    ```
+- Update:
+    ```bash
+    // function to update data in the database (update)
+    update_data(pool: &Pool, date: &str, product: &str, price: f64, quantity: i32)
+    ```
+- Delete:
+    ```bash
+    // clear the table (delete)
+    pub async fn clear_table(pool: &Pool)
+    // function to delete data from the database (delete)
+    pub async fn delete_data(pool: &Pool, date: &str, product: &str)
+    ```
+
 
 ## Complex Query Explanation
 
@@ -114,6 +157,7 @@ The complex SQL query used in this project performs the following operations:
     LEFT JOIN week6_mini_discounts d ON w.Product = d.Product
     ORDER BY Total_Revenue DESC;
     ```
+
 
 ## Sample Output
 
@@ -230,3 +274,5 @@ The complex SQL query used in this project performs the following operations:
     Using `valgrind`, potential memory issues were identified related to file operations on Unix-based systems. Specifically, there were unaddressable byte references in the statx system call. It is confirmed that they are derived from the Rust standard library itself and not from the project code.<br>
 
 
+Video Demo：
+    https://youtu.be/HLbi-tvwhO8
